@@ -1,0 +1,22 @@
+\section{Classification Models}
+
+Four different classification algorithms were implemented and evaluated:
+
+\begin{enumerate}
+    \item \textbf{K-Nearest Neighbors (KNN):} This non-parametric method
+    classifies a new data point based on the majority class of its k nearest
+    neighbors in the training data. Tuning the hyperparameter 'k' (number of
+    neighbors) is crucial for optimal performance.
+    \item \textbf{Naive Bayes:} This probabilistic classifier assumes
+    independence between features and predicts the class with the highest
+    posterior probability based on the features' individual probabilities.
+    \item \textbf{Logistic Regression:} This linear model predicts the
+    probability of belonging to a specific class (gamma or hadron) based on a
+    linear combination of the input features. The model learns the coefficients
+    for this linear equation during training.
+    \item \textbf{Support Vector Machines (SVM):} This method aims to find a
+    hyperplane in the feature space that maximizes the margin between the two
+    classes (gamma and hadron). Different kernel functions like linear or
+    non-linear can be used to map the data into a higher-dimensional space if
+    necessary.
+\end{enumerate}

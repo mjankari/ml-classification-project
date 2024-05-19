@@ -1,0 +1,39 @@
+\documentclass[a4paper, 12pt, titlepage]{article}
+
+\usepackage{biblatex}
+\usepackage[hidelinks]{hyperref}
+
+\addbibresource{references.bib}
+
+\title{Classification of Gamma and Hadron Particles using Machine Learning}
+
+\author{
+    Mahdi Jankari\\
+    Dept. of Computer Engineering\\
+    Altinbas University\\
+    Istanbul, Turkiye\\
+    220502068@ogr.altinbas.edu.tr
+}
+
+\date{May 20, 2024}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+
+This report details a project investigating the classification of particle
+events as either gamma or hadron using machine learning techniques. The project
+utilized Python libraries and various classification algorithms to achieve this
+goal. The source code of the project can be found at
+\url{https://github.com/mjankari/ml-classification-project}.
+
+\input{libraries.tex}
+\input{data-processing.tex}
+\input{classification-models.tex}
+\input{model-evaluation.tex}
+\input{conclusion.tex}
+\newpage
+\nocite{*}
+\printbibliography
+\end{document}

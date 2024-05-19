@@ -1,0 +1,22 @@
+\section{Data Processing}
+
+The data for this project consisted of eleven attributes describing particle
+events. Prior to training the models, the data underwent several processing
+steps:
+
+\begin{enumerate}
+    \item \textbf{Exploration and Visualization:} The data was explored using
+    pandas and visualized with matplotlib to understand its distribution,
+    identify potential outliers, and assess the presence of class imbalance
+    (unequal distribution of gamma and hadron events).
+    \item \textbf{Feature Scaling:} If the attributes had significantly
+    different scales, feature scaling was applied using techniques like
+    standardization or normalization. This ensured all features contributed
+    equally to the model's learning process.
+    \item \textbf{Imbalanced Class Handling:} If the data exhibited significant
+    class imbalance, techniques from imbalanced-learn were employed. These could
+    involve oversampling the minority class (gamma events), undersampling the
+    majority class (hadron events), or using SMOTE (Synthetic Minority
+    Over-sampling Technique) to generate synthetic data points for the minority
+    class.
+\end{enumerate}
